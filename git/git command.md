@@ -55,5 +55,5 @@ git config --edit --global
 
     ```
     [alias]
-        cr = "!sh -c \"set -ex; git commit -m $1; git push origin :$1\""
+        mr = "!f(){ git commit -m \":white_check_mark:${1}\"; };f"
     ```
