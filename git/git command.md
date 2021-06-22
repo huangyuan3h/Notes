@@ -39,3 +39,21 @@ git config --edit --global
     px = "!sh -c \"set -ex; git pull --prune; git fetch --tags --prune\""
 ```
 
+6. commit command
+
+
+    6.1 normal commit
+
+    ```
+    [alias]
+        cm = commit -m
+    ```
+
+    6.2 commit with gitmoji
+    <https://gitmoji.dev/>
+
+
+    ```
+    [alias]
+        cr = "!sh -c \"set -ex; git commit -m $1; git push origin :$1\""
+    ```
