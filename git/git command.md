@@ -55,5 +55,5 @@ git config --edit --global
 
     ```
     [alias]
-        mr = "!f(){ git commit -m \":white_check_mark:${1}\"; };f"
+        mr = "!f(){ git commit -m \":white_check_mark: ${1}\"; };f"
     ```
