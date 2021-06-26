@@ -55,5 +55,11 @@ git config --edit --global
 
     ```
     [alias]
-        mr = "!f(){ git commit -m \":white_check_mark: ${1}\"; };f"
+        mf = "!f(){ git commit -m \":sparkles: ${1}\"; };f"
+        mr = "!f(){ git commit -m \":recycle: ${1}\"; };f"
+        mt = "!f(){ git commit -m \":white_check_mark: ${1}\"; };"
+        ma = "!f(){ git commit -m \":art: ${1}\"; };"
+        mar = "!f(){ git commit -m \":building_construction: ${1}\"; };"
+        md = "!f(){ git commit -m \":memo: ${1}\"; };"
     ```
+    
