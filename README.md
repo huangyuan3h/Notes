@@ -1,6 +1,6 @@
 # Protool 2.0
 
-### Basic structures
+### Overall structures
 
 ![](.gitbook/assets/image.png)
 
