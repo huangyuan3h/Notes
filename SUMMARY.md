@@ -6,6 +6,7 @@
     * [Zsh + oh my zsh + plugins](protool-2.0/common-technology/zsh-+-oh-my-zsh-+-plugins.md)
     * [Git command](protool-2.0/common-technology/git-command.md)
     * [Node version manager](protool-2.0/common-technology/node-version-manager.md)
+    * [Git ignore](protool-2.0/common-technology/git-ignore.md)
     * [Editor config](protool-2.0/common-technology/editor-config.md)
     * [Typescript](protool-2.0/common-technology/typescript.md)
     * [Eslint](protool-2.0/common-technology/eslint.md)
