@@ -2,7 +2,7 @@
 
 ### Overall structures
 
-![](.gitbook/assets/image.png)
+![](<.gitbook/assets/image (2).png>)
 
 Protool 2.0 project is built by several repositories:
 
