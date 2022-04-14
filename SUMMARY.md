@@ -21,6 +21,3 @@
   * [Frontend](protool-2.0/frontend/README.md)
     * [Next js](protool-2.0/frontend/next-js.md)
 * [Microservice](microservice.md)
-* [some personal notes](readme.MD)
-* [anaconda](anaconda/README.md)
-  * [Basic usage of anaconda](<anaconda/basic usage.md>)
