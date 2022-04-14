@@ -10,7 +10,7 @@ In most of the project for FE, we current totally use \`typescript\`. There are 
 
 From the [trends](https://www.npmtrends.com/typescript):
 
-![](<../../.gitbook/assets/image (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 It is clear that more and more project are using typescript. So I would highly recommend to use typescript in your project in the future.
 
@@ -92,7 +92,7 @@ npm run build
 
 The compiled files could be revealed in \`.dist\` folder:
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (1).png>)
 
 and you can run the script by:
 

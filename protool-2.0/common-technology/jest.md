@@ -45,13 +45,119 @@ module.exports = {
 
 The configure above contains several field, need to be mention:
 
-1. `setupFiles` could define the running script before run each test
-2. `transform` filed use the `ts-jest` package transform ts file before runing the test.
-3. &#x20;`collectCoverageFrom` is the path to collect the coverage data, if set '!path' some path could be ignored.
+1. `setupFiles` could set basic testing environment
+2. `setupFilesAfterEnv` could define the running script before run each test
+3. `transform` filed use the `ts-jest` package transform ts file before runing the test.
+4. &#x20;`collectCoverageFrom` is the path to collect the coverage data, if set '!path' some path could be ignored.
+
+### Mock
+
+#### mock field
+
+When writing unit test, it is highly recommend that use mock data to do the test. The benefit includes:
+
+1. mock data is random so as to make the test more robust
+2. mock data save the memory as the random words has been reused
 
 
 
+The `fake.js` is one of the choice to mock data. You can install it by:
 
+```bash
+npm install @faker-js/faker --save-dev
+```
+
+In code you can generate random mock data like:
+
+```typescript
+import { faker } from '@faker-js/faker';
+
+const randomName = faker.name.findName();
+const randomEmail = faker.internet.email();
+```
+
+more details:
+
+[https://fakerjs.dev/guide/](https://fakerjs.dev/guide/)
+
+#### mock packages
+
+Sometimes, we only want to test the target file, but the the packages the target file required. In this case , we can mock the packages that is not in the testing plan:
+
+```javascript
+jest.mock('../moduleName', () => {
+  return jest.fn(() => 42);
+});
+
+// This runs the function specified as second argument to `jest.mock`.
+const moduleName = require('../moduleName');
+moduleName(); // Will return '42';
+```
+
+And this is the recommend way for writing UT in our daily work. These setting could also added into jest setup file.
+
+
+
+#### mock functions
+
+Another reason I like jest is the way to mock functions. Let me show you little bit about this part:&#x20;
+
+```javascript
+const mockFn = jest.fn((x:string):string => {
+    // factory function
+    return x;
+});
+const anyData = 'any';
+const result = mockFn(anyData);
+expect(mockFn).tobecalledWith(anyData);
+expect(result).toEqual(anyData);
+```
+
+With this example, 90% of the function could be mocked and tested with expected mock result.
+
+
+
+These is another way to mock function and not change the original result:
+
+```javascript
+const video = require('./video');
+
+test('plays video', () => {
+  const spy = jest.spyOn(video, 'play');
+  const isPlaying = video.play();
+
+  expect(spy).toHaveBeenCalled();
+  expect(isPlaying).toBe(true);
+
+  spy.mockRestore();
+});
+```
+
+
+
+These 2 examples above is current major way in our project.
+
+
+
+### &#x20;Run test in IDE
+
+Run the test in idea is pretty simple:
+
+![](<../../.gitbook/assets/image (4).png>)
+
+the environment will be setup automatically, you can run the test just by click the run icon at left.
+
+
+
+run test in vs code:
+
+There are variety ways to run jest in vs code, the plugin I choose is `jest-running`
+
+``![](<../../.gitbook/assets/image (2).png>)``
+
+After install this plugin,  it would be same as IDEA click the `run` or `debugger` ,  the test would run automatically.
+
+![](<../../.gitbook/assets/image (3).png>)
 
 
 

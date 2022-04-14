@@ -10,7 +10,7 @@ Normally, developer should not define the eslint configure directly. We should c
 
 The top 3 common used eslint config are airbnb, google and standard
 
-![](<../../.gitbook/assets/image (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1).png>)
 
 From the download, we can see `airbnb` has the largest number of download. So Bolt team is based on this rule.
 
@@ -46,7 +46,7 @@ module.exports = {
 
 All the configure is point to another project `bolt-package`  and in bolt package:
 
-![](<../../.gitbook/assets/image (2) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1).png>)
 
 There are 2 sub project in packages folder. It means if the project is only related to `typescript` it should use the `eslint-config-typescript` configuration; if the project is related to `React` this project should use `eslint-config-react` configuration.
 
