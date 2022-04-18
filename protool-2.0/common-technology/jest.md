@@ -143,7 +143,7 @@ These 2 examples above is current major way in our project.
 
 Run the test in idea is pretty simple:
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (1).png>)
 
 the environment will be setup automatically, you can run the test just by click the run icon at left.
 
@@ -157,7 +157,7 @@ There are variety ways to run jest in vs code, the plugin I choose is `jest-runn
 
 After install this plugin,  it would be same as IDEA click the `run` or `debugger` ,  the test would run automatically.
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (3) (1).png>)
 
 
 
