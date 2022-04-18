@@ -161,9 +161,9 @@ After install this plugin,  it would be same as IDEA click the `run` or `debugge
 
 
 
+### Coverage
 
-
-
+The coverage support for jest is also very nice. I would like to introduce it together with [sonar](sonar.md).
 
 
 
