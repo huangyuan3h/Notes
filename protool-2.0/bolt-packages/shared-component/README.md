@@ -47,7 +47,7 @@ This is the header component
 
 As this is the basic block of the whole system, so I will explain the detail it in several other topic:
 
-1. [i18next](i18next.md)
+1. [i18next](i18next-react.md)
 2. [SCSS vs module css](scss-vs-module-css.md)
 3. [Functional Component ](functional-component.md)
 

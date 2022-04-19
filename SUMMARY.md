@@ -17,7 +17,7 @@
   * [BOLT packages](protool-2.0/bolt-packages/README.md)
     * [Lerna](protool-2.0/bolt-packages/lerna.md)
     * [Shared component](protool-2.0/bolt-packages/shared-component/README.md)
-      * [i18next](protool-2.0/bolt-packages/shared-component/i18next.md)
+      * [i18next/react](protool-2.0/bolt-packages/shared-component/i18next-react.md)
       * [SCSS vs module css](protool-2.0/bolt-packages/shared-component/scss-vs-module-css.md)
       * [Functional Component](protool-2.0/bolt-packages/shared-component/functional-component.md)
     * [HOC](protool-2.0/bolt-packages/hoc.md)
