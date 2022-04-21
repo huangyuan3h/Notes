@@ -74,7 +74,7 @@ lerna create eslint-config-react -y
 
 the project structure should looks like:
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (5) (1).png>)
 
 This is also part of the project structure designed in protool 2.0, let me explain little bit about 4 packages.
 
