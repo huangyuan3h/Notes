@@ -14,7 +14,7 @@ Each page has it's own translate folder and some common translate is put into co
 
 For each file:
 
-![](<../../../.gitbook/assets/image (7).png>)
+![](<../../../.gitbook/assets/image (7) (1).png>)
 
 It imports the language from the required component.&#x20;
 
