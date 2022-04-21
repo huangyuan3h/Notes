@@ -24,9 +24,16 @@ In current Backend structure, it is much more about the spring cloud, docker and
 
 This is the folder structure of api layer, each folder is a `got client`  mapping to the target microservice:
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (4).png>)
 
 
 
 The reason to abstract it into sub-modules is that the logic to call backend should keep the same logic. So that when backend changed, the all the frontend project relay on the api could be updated and keep the same styles (if not using graphql server)
 
+### Testing
+
+For integration testing, I would recommend `nock` to mock the http request.
+
+{% embed url="https://github.com/nock/nock" %}
+
+For the UT for this layer, jest mock is enough.

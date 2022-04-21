@@ -48,7 +48,7 @@ logs
 
 install prettier plugin
 
-![](<../../.gitbook/assets/image (4) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1) (1) (1).png>)
 
 make sure the prettier point to the `node_module/prettier` .
 

@@ -143,7 +143,7 @@ These 2 examples above is current major way in our project.
 
 Run the test in idea is pretty simple:
 
-![](<../../.gitbook/assets/image (4) (1) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1) (1).png>)
 
 the environment will be setup automatically, you can run the test just by click the run icon at left.
 
