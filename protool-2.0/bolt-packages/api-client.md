@@ -24,7 +24,7 @@ In current Backend structure, it is much more about the spring cloud, docker and
 
 This is the folder structure of api layer, each folder is a `got client`  mapping to the target microservice:
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (1).png>)
 
 
 

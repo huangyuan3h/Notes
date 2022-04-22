@@ -6,7 +6,7 @@ As Protool 2.0 is design for both MX and ZA at very beginning. To render differe
 
 Let me first show the folder of l10n:
 
-![](<../../../.gitbook/assets/image (6).png>)
+![](<../../../.gitbook/assets/image (6) (1).png>)
 
 Each page has it's own translate folder and some common translate is put into common file. The common file is also the default `namespace` for translate function.
 
