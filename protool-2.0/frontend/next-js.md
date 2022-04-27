@@ -63,6 +63,13 @@ see also : [https://nextjs.org/docs/basic-features/data-fetching/overview](https
 
 
 
+### Other features
+
+1. jest integration, the next js native support jest ([https://nextjs.org/blog/next-12-1#zero-configuration-jest-plugin](https://nextjs.org/blog/next-12-1#zero-configuration-jest-plugin))
+2. [SWC](https://nextjs.org/docs/advanced-features/compiler) , the complier written in rust, very fast.
+
+
+
 
 
 
