@@ -1,6 +1,6 @@
 # Eslint
 
-In Javascript or Typescript area, [`eslint`](https://eslint.org) currently is still the best tool to do coding standard check.&#x20;
+In Javascript or Typescript area, [`eslint`](https://eslint.org/) currently is still the best tool to do coding standard check.&#x20;
 
 
 

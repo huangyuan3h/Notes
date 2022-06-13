@@ -14,4 +14,4 @@ After the install completed, try to install `wget` for testing success or not:
 brew install wget
 ```
 
-Reference:  [https://brew.sh/](https://brew.sh)
+Reference:  [https://brew.sh/](https://brew.sh/)

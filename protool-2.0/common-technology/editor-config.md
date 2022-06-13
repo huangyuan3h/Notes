@@ -25,4 +25,4 @@ indent_style = space
 
 more details check:
 
-[https://editorconfig.org/](https://editorconfig.org)
+[https://editorconfig.org/](https://editorconfig.org/)

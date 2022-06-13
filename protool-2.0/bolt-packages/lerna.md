@@ -79,7 +79,7 @@ the project structure should looks like:
 This is also part of the project structure designed in protool 2.0, let me explain little bit about 4 packages.
 
 1. shared-components contains all the common components for other project use
-2. storybook is the project use [`storybook`](https://storybook.js.org) to display `shared-component` for Fe devs and designer
+2. storybook is the project use [`storybook`](https://storybook.js.org/) to display `shared-component` for Fe devs and designer
 3. eslint-config-\[typescript|react] project is to defined eslint rules and reused in other project.
 4. we also have api layer using [`got`](https://github.com/sindresorhus/got) as the client for micro-service.
 

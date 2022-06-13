@@ -181,7 +181,7 @@ Apollo client's other features include: `pagination`, `error handle`, `Testing s
 
 Like the concept of microservice, sub-graph could also be implemented only the part of the composed supergraph and then merge into the BFF system.
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (1).png>)
 
 
 
@@ -189,8 +189,8 @@ Like the concept of microservice, sub-graph could also be implemented only the p
 
 ### Reference
 
-1. [https://www.apollographql.com/](https://www.apollographql.com)
-2. [https://graphql.org/](https://graphql.org)
+1. [https://www.apollographql.com/](https://www.apollographql.com/)
+2. [https://graphql.org/](https://graphql.org/)
 
 
 

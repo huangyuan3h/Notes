@@ -1,4 +1,4 @@
-# zsh + oh my zsh + plugins
+# Zsh + oh my zsh + plugins
 
 ### Zsh
 
@@ -46,6 +46,6 @@ After you configure the zsh theme, it would be nice to choose some plugins for y
 
 #### Reference:
 
-****[**https://www.zsh.org/**](https://www.zsh.org)****
+****[**https://www.zsh.org/**](https://www.zsh.org/)****
 
-****[**https://ohmyz.sh/**](https://ohmyz.sh)****
+****[**https://ohmyz.sh/**](https://ohmyz.sh/)****

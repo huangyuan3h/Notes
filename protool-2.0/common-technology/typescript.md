@@ -122,7 +122,7 @@ to run the index ts file by the line above.
 
 ### Reference
 
-1.[https://www.typescriptlang.org/](https://www.typescriptlang.org)
+1.[https://www.typescriptlang.org/](https://www.typescriptlang.org/)
 
 2\. [https://www.npmtrends.com/typescript](https://www.npmtrends.com/typescript)
 

@@ -6,7 +6,7 @@ As Protool 2.0 is design for both MX and ZA at very beginning. To render differe
 
 Let me first show the folder of l10n:
 
-![](<../../../.gitbook/assets/image (6) (1).png>)
+![](<../../../.gitbook/assets/image (6) (1) (1).png>)
 
 Each page has it's own translate folder and some common translate is put into common file. The common file is also the default `namespace` for translate function.
 
@@ -26,11 +26,11 @@ The technology we used is:
 
 i18next is the project to solve the problem for js. It support plurals, interpolation very well.
 
-more details : [https://www.i18next.com/](https://www.i18next.com)
+more details : [https://www.i18next.com/](https://www.i18next.com/)
 
 
 
-But actually, we are not direct use `i18next` but use [`i18next-react`](https://react.i18next.com)&#x20;
+But actually, we are not direct use `i18next` but use [`i18next-react`](https://react.i18next.com/)&#x20;
 
 ### i18next-react
 
