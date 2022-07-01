@@ -98,7 +98,7 @@ Have you find the similar component use different font?
 
 
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7) (1).png>)
 
 In our storybook, there is a page to display all the font and which place to use these icon.
 

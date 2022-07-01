@@ -10,7 +10,7 @@ Currently, `got` was chose as the packages to send  request to microservice.
 
 
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (8) (1).png>)
 
 
 

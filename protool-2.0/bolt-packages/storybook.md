@@ -6,7 +6,7 @@ Storybook is a very good tool for discussion and display what kind of component 
 
 Here is the screenshot:
 
-![](<../../.gitbook/assets/image (8) (1).png>)
+![](<../../.gitbook/assets/image (8) (1) (1).png>)
 
 Let's take small tile as an example. As we can see, left side is the component we have, and for one component it is possible to have different form. At the top is a bar and the dropdown menu show the site we have. By clicking the site, the language and the style would be changed.
 
